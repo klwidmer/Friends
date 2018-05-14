@@ -29,75 +29,59 @@
             <div class="container">
 
                 <!-- Display the Questions and the Answers using radio buttons -->
-                <h3>What is your favorite color?</h3>
-                      <h5><input id="Q1A" type="radio" name="Q1" value="a">Blue <br></h5>
-                  <h5><input id="Q1B" type="radio" name="Q1" value="b">Red<br></h5>
-                  <h5><input id="Q1C" type="radio" name="Q1" value="c">Green<br></h5>
-                  <h5><input id="Q1C" type="radio" name="Q1" value="c">Purple<br></h5>
-                      <br>
-          
-                      <h3>Favorite Music?</h3>
-                      <h5><input id="Q2A" type="radio" name="Q2" value="a">Rock<br></h5>
-                  <h5><input id="Q2B" type="radio" name="Q2" value="b">Pop<br></h5>
-                  <h5><input id="Q2C" type="radio" name="Q2" value="c">Hip-Hop<br></h5>
-                  <h5><input id="Q2C" type="radio" name="Q2" value="c">Country<br></h5>
-                      <br>
-          
-                      <h3>Favorite Food?</h3>
-                      <h5><input id="Q3A" type="radio" name="Q3" value="a">Pizza<br></h5>
-                  <h5><input id="Q3B" type="radio" name="Q3" value="b">Chinese<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Mexican<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Other<br></h5>
-                      <br>
-                      <h3>Favorite Animal?</h3>
-                      <h5><input id="Q3A" type="radio" name="Q3" value="a">Dog<br></h5>
-                  <h5><input id="Q3B" type="radio" name="Q3" value="b">Cat<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Bird<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Other<br></h5>
-                      <br>
-                      <h3>Favorite Sport?</h3>
-                      <h5><input id="Q3A" type="radio" name="Q3" value="a"><br></h5>
-                  <h5><input id="Q3B" type="radio" name="Q3" value="b">Basketball<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Football<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Hockey<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Baseball<br></h5>
-                      <br>
-                      <h3>Pick a number</h3>
-                      <h5><input id="Q3A" type="radio" name="Q3" value="a">20<br></h5>
-                  <h5><input id="Q3B" type="radio" name="Q3" value="b">8<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">100<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">5000<br></h5>
-                      <br>
-                      <h3>Pick a leisure activity?</h3>
-                      <h5><input id="Q3A" type="radio" name="Q3" value="a">Watching TV<br></h5>
-                  <h5><input id="Q3B" type="radio" name="Q3" value="b">Reading<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Physical Activity<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Wine/Beer Tasting
-                    <br></h5>
-                      <br>
-                      <h3>Favorite Types Of Video Games?</h3>
-                      <h5><input id="Q3A" type="radio" name="Q3" value="a">FPS<br></h5>
-                  <h5><input id="Q3B" type="radio" name="Q3" value="b">RPG<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c"><br>Strategy</h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">I don't play<br></h5>
-                      <br>
-                      <h3>Pick a coffee place</h3>
-                      <h5><input id="Q3A" type="radio" name="Q3" value="a">Caribou<br></h5>
-                  <h5><input id="Q3B" type="radio" name="Q3" value="b">StarBucks<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">DunBros<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Other<br></h5>
-                      <br>
-                      <h3>If you were stranded on island what would you chose?</h3>
-                      <h5><input id="Q3A" type="radio" name="Q3" value="a">Knife<br></h5>
-                  <h5><input id="Q3B" type="radio" name="Q3" value="b">Axe<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">Fire Starters<br></h5>
-                  <h5><input id="Q3C" type="radio" name="Q4" value="c">A Puppy<br></h5>
-                      <br>
-          
+                <form id="surveyForm">
+                    <h3>Whats your name?</h3>
+                    <input type="text" name="username" id="username">
+                    <br>
+                    <h3>Upload your Image Url</h3>
+                    <input type="text" name="userimage" id="userimage">
+                    <br>
+                        <h3>What is your favorite car?</h3>
+                        <select class="question">
+                            <option value=1>Volvo</option>
+                            <option value=2>Saab</option>
+                            <option value=3>Mercedes</option>
+                            <option value=4>Audi</option>
+                        </select>
+                        <br>
+                        <h3>What is your favorite music?</h3>
+                        <select class="question">
+                            <option value=1>Pop</option>
+                            <option value=2>Rock</option>
+                            <option value=3>Blues</option>
+                            <option value=4>Hip-Hop</option>
+                        </select>
+                        <br>
+                        <h3>What is your favorite color?</h3>
+                        <select class="question">
+                            <option value=1>Green</option>
+                            <option value=2>Blue</option>
+                            <option value=3>Yellow</option>
+                            <option value=4>Purple</option>
+                        </select>
+                        <br>
+                        <h3>What is your favorite food?</h3>
+                        <select class="question">
+                            <option value=1>Chinese</option>
+                            <option value=2>Mexican</option>
+                            <option value=3>Greek</option>
+                            <option value=4>Italian</option>
+                        </select>
+                        <br>
+                        <h3>What is your favorite sport?</h3>
+                        <select class="question">
+                            <option value=1>Basketball</option>
+                            <option value=2>Football</option>
+                            <option value=3>Hockey</option>
+                            <option value=4>Baseball</option>
+                        </select>
+                        <br>
+                  
                 <!-- The Submit button executes a function to check the answers -->
-                <button type="button" onclick="checkAnswers()">Submit</button>
+                <button type="submit">Submit</button>
                       <!-- The Reset button executes a function to uncheck all the answers and clear the results -->
                       <button type="button" onclick="resetAnswers()">Reset</button>
+                </form>
           
                       <p id="demo"></p>
 
@@ -113,30 +97,27 @@
 
     <script>
         // ajax requests, handling submit button, etc.    
+        $('#surveyForm').submit(function(e){
+            e.preventDefault();
+            console.log($(this))
+
+            var scores = [];
+           $('.question').each(function(){
+               scores.push($(this).val());
+           })
+           var newUser = {
+               name: $('#username').val(),
+               photo: $('#userimage').val(),
+               scores: scores
+           }
+           console.log(newUser);
+
+            $.post('/api/surveyresults', newUser, function(friendobj){
+                console.log(friendobj)
+            })
+        })
      </script>
-
-
-<script src="assets/javascript/app.js"></script>
 
 </body>
 </html>
 
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <!the form -->
-
-
-
-    <!-- <script> -->
-    <!-- // ajax requests, handling submit button, etc.     -->
-    <!-- </script> -->
-<!-- </body> -->
-<!-- </html> --> 

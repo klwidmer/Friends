@@ -1,6 +1,6 @@
 module.exports = [
     {   name: "Kevin",
-        photo: "lfksj;dl",
+        photo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kevin-james-dickste-freunde-berlin-17-01-11_%28cropped%29.jpg/220px-Kevin-james-dickste-freunde-berlin-17-01-11_%28cropped%29.jpg",
         score: [1,2,3,2,4]
     },
     {   name: "Brittney",
