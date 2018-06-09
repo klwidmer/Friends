@@ -8,7 +8,7 @@ module.exports = function(app) {
     
     app.post("/api/surveyresults", function (req,res) {
         console.log(req.body);
-        // res.json(home);
+        res.json("Yeah it worked!")
     });
 
     // app.get("..app/routes/home", function (req,res) {

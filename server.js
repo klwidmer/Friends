@@ -25,4 +25,4 @@ app.listen(PORT, function () {
 });
 
 
-  
+// I am still working on getting my array to calculate a match for the new user with a friends from the global variable. 
